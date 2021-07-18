@@ -1,5 +1,4 @@
-# nomadcoderJavaScript
-노마드코더 자바스크립 학습 노트입니다.
+자바스크립 학습 노트입니다.
 
 2021-07-18
 
@@ -31,9 +30,24 @@ const Array = [1, 2, "hello", false, null, true];
 const dayOfWeek= ["mon", "tue", "wed", "thu", "fri", "sat"]
 
 //Get Item from Array
-console.log(dayOfWeek[5]) --> sat
+console.log(dayOfWeek[5]) --> "sat"
 //Add one more day to the array
 dayOfWeek.push("sun")
+console.log(dayOfWeek) --> "mon", "tue", "wed", "thu", "fri", "sat", "sun"
+
+[Objects]
+
+const player= { 
+  name:"seungwoo",
+  points: 10,
+  fat: true
+};
+
+console.log(play.fat); --> true
+player.fat = false;  
+console.log(play.fat) --> false
+> constant 안의 무언가를 업데이트 가능
+
 
                                                                 
 
