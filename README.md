@@ -37,6 +37,8 @@ console.log(dayOfWeek) --> "mon", "tue", "wed", "thu", "fri", "sat", "sun"
 
 [Objects]
 
+objects = property를 가진 데이터를 저장
+
 const player= { 
   name:"seungwoo",
   points: 10,
